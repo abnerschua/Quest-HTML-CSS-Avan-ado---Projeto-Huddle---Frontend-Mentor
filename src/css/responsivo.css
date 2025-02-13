@@ -1,0 +1,51 @@
+@media(max-width:1080px){
+    body {
+        background-image: url(../images/bg-mobile.svg);
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+        background-repeat: no-repeat;
+        
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .imagem img {
+        max-width: 100%;
+    }
+
+    .texto-pagina{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .social{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 30px
+    }
+
+    header{
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+    }
+}
+/* por algum motivo apenas com essa resolução do iphoneSE fica meio bugado, então fiz assim pra resolver*/
+
+@media(max-width:375px){
+    .imagem {
+        padding-top: 100px;
+    }
+    .social {
+        padding: 130px;
+    }
+}
