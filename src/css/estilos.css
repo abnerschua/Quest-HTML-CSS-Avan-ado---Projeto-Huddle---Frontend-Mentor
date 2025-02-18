@@ -78,12 +78,14 @@ main img{
     padding-top: 10px;
     transition: 0.3s;
 }
-.social a{
-    padding: 7px;
-}
 
 .social i:hover{
     color: hsl(300, 69%, 71%);
     border-color: hsl(300, 69%, 71%);
+}
+
+.social li{
+    display: inline;
+    padding: 5px;
 }
 
